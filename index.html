@@ -49,11 +49,70 @@
 
   <body>
     <a-scene altspace=fullspace:true sync-system="author: bookgirl; app: draw-off-halloween">
+        
+ <a-assets>
+     
+    <a-asset-item id="pumkin" src="https://rawgit.com/Lia021/helloween/master/pumkin/pumkin.dae"></a-asset-item>
+    <a-asset-item id="eyered" src="https://rawgit.com/Lia021/helloween/master/eye/eye-flower.dae"></a-asset-item>
+    <a-asset-item id="spider" src="https://rawgit.com/Lia021/helloween/master/spider/spider.dae"></a-asset-item>
+    
+     
+     
+     
+     
+     
+     
+     
+ </a-assets>
+    
+  
+    <!--punkin-->
+     
+    <a-entity position="-5.10 0.90 -0.90" scale="3 3 3" rotation="0 0 0" collada-model="#pumkin"n-mesh-collider="type: environment; convex: false"></a-entity>
+    
+
+    <!--punkin2-->
+     
+    <a-entity position="-5.10 0.90 1.90" scale="3 3 3" rotation="0 0 0" collada-model="#pumkin"n-mesh-collider="type: environment; convex: false"></a-entity>
+    
+    
+    <!--punkin3-->
+     
+    <a-entity position="-2.50 0.45 -8.50" scale="3.10 3.10 3.10" rotation="0 -90 0" collada-model="#pumkin"n-mesh-collider="type: environment; convex: false"></a-entity>
       
+     
+    <!--punkin4-->
+     
+    <a-entity position="7 0 -8.50" scale="3.10 3.10 3.10" rotation="0 -90 0" collada-model="#pumkin"n-mesh-collider="type: environment; convex: false"></a-entity>
       
-   <!--sky-->
+    
+    <!--punkin5-->
+     
+    <a-entity position="-5.10 0.90 5.05" scale="3.10 3.10 3.10" rotation="0 90 0" collada-model="#pumkin"n-mesh-collider="type: environment; convex: false"></a-entity>
       
-  <a-sky radius="400" src="https://rawgit.com/Lia021/helloween/master/green.jpg"></a-sky>
-      
-      
-      
+       
+    <!--punkin6-->
+     
+    <a-entity position="-0.50 0.90 5.10" scale="3.10 3.10 3.10" rotation="0 90 0" collada-model="#pumkin"n-mesh-collider="type: environment; convex: false"></a-entity>
+   
+    
+    <!--plant-->
+
+    <a-entity position="-4.55 4.20 5.10" scale="1.50 1.50 1.50" rotation="0 90 0" collada-model="#eyered"></a-entity>
+     
+    <!--plant3-->
+
+    <a-entity position="-4.62 4.05 5.05" scale="1.50 1.50 1.50" rotation="0 90 0" collada-model="#eyered"></a-entity>
+
+    <!--plant3-->
+
+    <a-entity position="-4.69 4.20 5.10" scale="1.50 1.50 1.50" rotation="0 90 0" collada-model="#eyered"></a-entity>
+    
+    <!--spider-->
+     
+    <a-entity position="8.90 6.50 -7.60" scale="3.10 3.10 3.10" rotation="120 0 90" collada-model="#spider"n-mesh-collider="type: environment; convex: false"></a-entity>
+
+    <!--spider2-->
+     
+    <a-entity position="8.90 6.50 4.20" scale="3.10 3.10 3.10" rotation="-120 0 90" collada-model="#spider"n-mesh-collider="type: environment; convex: false"></a-entity>
+     
