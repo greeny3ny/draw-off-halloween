@@ -58,10 +58,12 @@
     <a-asset-item id="vampireskull" src="https://rawgit.com/Lia021/draw-off-halloween/master/vampire/vampire.dae"></a-asset-item>
     <a-asset-item id="skull-red" src="https://rawgit.com/Lia021/draw-off-halloween/master/red%20skullmask/redmask.dae"></a-asset-item>
     
+    
      
     <a-mixin id="skull-red" collada-model="#skull-red" collapse-model></a-mixin>
     
-            <a-mixin id="parent-to-head" position="0 -0.12 -0.03" scale="1.25 1.25 1.25" rotation="0 90 0" n-skeleton-parent="part:head;" sync sync-n-skeleton-parent></a-mixin>
+    
+            <a-mixin id="parent-to-head" position="0 -0.15 -0.03" scale="1.40 1.40 1.40" rotation="0 90 0" n-skeleton-parent="part:head;" sync sync-n-skeleton-parent></a-mixin>
     
      
      
@@ -138,3 +140,7 @@
   <!--skull-red-->
 
   <a-entity position="-7.13 1 4.80" scale="1.50 1.50 1.50"rotation="0 90 40" mixin="skull-red" instantiator="on: click;group: skull-red; mixin: skull-red parent-to-head"></a-entity>
+
+ 
+
+
